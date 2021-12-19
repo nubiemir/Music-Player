@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 62.5%;
+}
+h1,
+h3,
+h2 {
+  color: rgb(59, 54, 54);
+}
+
+@import "./player";
+@import "./song";
+@import "./library";
+@import "./nav";
